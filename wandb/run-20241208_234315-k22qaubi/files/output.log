@@ -1,0 +1,14 @@
+step 0: train loss 4.2874, val loss 4.2823
+iter 0: loss 4.2663, time 66488.22ms, mfu -100.00%
+iter 10: loss 3.2446, time 341.68ms, mfu 1.09%
+iter 20: loss 2.7914, time 340.23ms, mfu 1.09%
+Traceback (most recent call last):
+  File "/workspaces/nanoGPT/train.py", line 305, in <module>
+    scaler.scale(loss).backward()
+  File "/home/codeany/.local/lib/python3.10/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/home/codeany/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/codeany/.local/lib/python3.10/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

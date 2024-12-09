@@ -1,0 +1,34 @@
+step 0: train loss 4.2874, val loss 4.2823
+iter 0: loss 4.2698, time 45761.21ms, mfu -100.00%
+iter 10: loss 3.2412, time 344.91ms, mfu 1.08%
+iter 20: loss 2.7724, time 357.25ms, mfu 1.08%
+iter 30: loss 2.6346, time 360.88ms, mfu 1.07%
+iter 40: loss 2.5781, time 358.78ms, mfu 1.07%
+iter 50: loss 2.5292, time 349.99ms, mfu 1.07%
+iter 60: loss 2.5122, time 349.69ms, mfu 1.07%
+iter 70: loss 2.4952, time 356.30ms, mfu 1.07%
+iter 80: loss 2.4980, time 357.22ms, mfu 1.06%
+iter 90: loss 2.4632, time 359.17ms, mfu 1.06%
+iter 100: loss 2.4544, time 352.27ms, mfu 1.06%
+iter 110: loss 2.4526, time 353.42ms, mfu 1.06%
+iter 120: loss 2.4230, time 359.07ms, mfu 1.06%
+iter 130: loss 2.4109, time 350.75ms, mfu 1.06%
+iter 140: loss 2.4067, time 354.33ms, mfu 1.06%
+iter 150: loss 2.4075, time 351.80ms, mfu 1.06%
+iter 160: loss 2.3686, time 351.56ms, mfu 1.06%
+iter 170: loss 2.3706, time 349.66ms, mfu 1.06%
+iter 180: loss 2.3161, time 361.61ms, mfu 1.06%
+iter 190: loss 2.2537, time 360.22ms, mfu 1.05%
+iter 200: loss 2.2046, time 362.50ms, mfu 1.05%
+iter 210: loss 2.1372, time 350.20ms, mfu 1.05%
+iter 220: loss 2.1357, time 354.36ms, mfu 1.05%
+iter 230: loss 2.0774, time 355.96ms, mfu 1.05%
+iter 240: loss 2.0727, time 353.09ms, mfu 1.05%
+Traceback (most recent call last):
+  File "/workspaces/nanoGPT/train.py", line 264, in <module>
+    losses = estimate_loss()
+  File "/home/codeany/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/workspaces/nanoGPT/train.py", line 225, in estimate_loss
+    losses[k] = loss.item()
+KeyboardInterrupt
