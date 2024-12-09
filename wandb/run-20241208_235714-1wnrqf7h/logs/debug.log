@@ -20,3 +20,4 @@ config: {'out_dir': 'out-shakespeare-char', 'eval_interval': 250, 'log_interval'
 2024-12-08 23:57:14,801 INFO    MainThread:19876 [wandb_run.py:_redirect():2358] Wrapping output streams.
 2024-12-08 23:57:14,801 INFO    MainThread:19876 [wandb_run.py:_redirect():2383] Redirects installed.
 2024-12-08 23:57:14,802 INFO    MainThread:19876 [wandb_init.py:init():925] run started, returning control to user process
+2024-12-09 00:43:50,104 WARNING MsgRouterThr:19876 [router.py:message_loop():75] message_loop has been closed
