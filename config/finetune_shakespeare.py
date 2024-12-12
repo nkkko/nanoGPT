@@ -9,7 +9,7 @@ torch._dynamo.config.suppress_errors = True  # Add this to prevent compilation e
 import os
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:512'
 
-out_dir = 'out-shakespeare'
+out_dir = '/tmp/out-shakespeare'
 eval_interval = 5
 eval_iters = 40
 wandb_log = True
@@ -17,7 +17,7 @@ wandb_project = 'shakespeare'
 wandb_run_name = 'ft-' + str(time.time())
 
 dataset = 'shakespeare'
-init_from = 'gpt2' # You can try other GPT-2 model medium, large, xl
+init_from = 'gpt2-medium' # You can try other GPT-2 model medium, large, xl
 
 # only save checkpoints if the validation loss improves
 always_save_checkpoint = False
